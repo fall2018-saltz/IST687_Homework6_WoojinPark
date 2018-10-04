@@ -35,6 +35,7 @@ cleanCensus$stateName
 arrests$stateName <-rownames(arrests[])
 arrests
 
+# and then, merge the two dataframe
 MergedDf<- merge(cleanCensus, arrests, by ="stateName")
 MergedDf
 
