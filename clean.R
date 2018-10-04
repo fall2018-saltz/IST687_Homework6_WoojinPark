@@ -30,7 +30,8 @@ arrests <- data.frame(USArrests)
 
 cleanCensus <- cleanCensus[-9,]
 cleanCensus$stateName
-
+arrests$stateName <-rownames(arrests[])
+arrests
 
 
 
