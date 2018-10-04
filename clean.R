@@ -1,15 +1,16 @@
 
 clean_data <- raw_data
+
 myfunction <-function()
 {
-  dfStates<-dfStates[-53,]
-  dfStates<-dfStates[-1,]
-  cnames <- colnames(dfStates)
+  clean_data<-clean_data[-53,]
+  clean_data<-clean_data[-1,]
+  cnames <- colnames(clean_data)
   cnames[5] <-"stateName"
   cnames[6] <-"population"
   cnames[7] <-"popOver18"
   cnames[8] <-"percentOver18"
-  colnames(dfStates) <-cnames
-  dfStates<-dfStates[,-1:-4]
-  return(dfStates)
+  colnames(clean_data) <-cnames
+  clean_data<-clean_data[,-1:-4]
+  return(clean_data)
 }
