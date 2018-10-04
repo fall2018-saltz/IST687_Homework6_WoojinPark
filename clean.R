@@ -28,6 +28,7 @@ arrests <- data.frame(USArrests)
 # Hint: get the state names from the USArests dataframe with the rownames 
 # Hint: use the merge command 
 
+#first eliminate the "District of Columbia" in cleanCensus to make match with 
 cleanCensus <- cleanCensus[-9,]
 cleanCensus$stateName
 
