@@ -35,6 +35,7 @@ arrests$stateName <-rownames(arrests[])
 arrests
 
 MergedDf<- merge(cleanCensus, arrests, by ="stateName")
+MergedDF
 
 
 
