@@ -15,5 +15,11 @@ myfunction <-function()
   return(clean_data)
 }
 
-clean_data <- myfunction()
-str(clean_data)
+cleanCensus<- myfunction(raw_data)
+str(cleanCensus)
+
+
+
+
+
+
