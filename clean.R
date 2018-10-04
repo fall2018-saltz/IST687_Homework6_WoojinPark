@@ -29,7 +29,7 @@ arrests <- data.frame(USArrests)
 # Hint: use the merge command 
 
 cleanCensus <- cleanCensus[-9,]
-merge(cleanCensus,arrests,)
+cleanCensus$stateName
 
 
 
