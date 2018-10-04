@@ -28,5 +28,12 @@ arrests <- data.frame(USArrests)
 # Hint: get the state names from the USArests dataframe with the rownames 
 # Hint: use the merge command 
 
+merge(cleanCensus,arrests,)
+
+
+
+
+
+
 
 
