@@ -15,4 +15,5 @@ myfunction <-function()
   return(clean_data)
 }
 
+clean_data <- myfunction()
 str(clean_data)
