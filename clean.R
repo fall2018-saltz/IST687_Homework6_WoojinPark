@@ -15,7 +15,7 @@ myfunction <-function()
   return(clean_data)
 }
 
-cleanCensus<- myfunction(raw_data)
+cleanCensus<- myfunction(clean_data)
 str(cleanCensus)
 
 
