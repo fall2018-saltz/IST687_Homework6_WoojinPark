@@ -30,12 +30,15 @@
             "name": "raw_data.csv"
         },
         {
-            "name": "clean.R"
+            "name": "data.csv"
         },
         {
-            "name": "data.csv"
+            "assigned_to": "not assigned",
+            "desc": "",
+            "name": "clean.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-04 15:12:37",
+    "updated_at": "2018-10-04 15:19:08",
     "url": "https://github.com/fall2018-saltz/IST687_Homework6_WoojinPark"
 }
