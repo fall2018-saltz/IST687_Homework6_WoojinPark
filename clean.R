@@ -14,3 +14,5 @@ myfunction <-function()
   clean_data<-clean_data[,-1:-4]
   return(clean_data)
 }
+
+str(clean_data)
