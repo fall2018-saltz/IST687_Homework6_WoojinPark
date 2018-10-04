@@ -1,7 +1,7 @@
 
 clean_data <- raw_data
 
-myfunction <-function()
+myfunction <-function(clean_data)
 {
   clean_data<-clean_data[-53,]
   clean_data<-clean_data[-1,]
