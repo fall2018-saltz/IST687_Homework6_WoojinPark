@@ -11,7 +11,7 @@
                     "type": "csv"
                 }
             ],
-            "source": "raw_data.csv",
+            "source": "scprc_est_2017_18_pop_res.csv",
             "target": "clean.R"
         },
         {
@@ -27,18 +27,18 @@
     ],
     "nodes": [
         {
-            "name": "raw_data.csv"
+            "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
             "name": "data.csv"
         },
         {
-            "assigned_to": "not assigned",
+            "assigned_to": "woojinpark",
             "desc": "",
             "name": "clean.R",
-            "task_status": "proposed"
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-04 15:19:08",
+    "updated_at": "2018-10-04 15:31:37",
     "url": "https://github.com/fall2018-saltz/IST687_Homework6_WoojinPark"
 }
