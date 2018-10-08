@@ -37,8 +37,11 @@
             "desc": "",
             "name": "clean.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "population histogram.png"
         }
     ],
-    "updated_at": "2018-10-04 16:22:18",
+    "updated_at": "2018-10-08 04:38:03",
     "url": "https://github.com/fall2018-saltz/IST687_Homework6_WoojinPark"
 }
