@@ -40,7 +40,13 @@ MergedDf<- merge(cleanCensus, arrests, by ="stateName")
 MergedDf
 
 
-
+# Step B: Explore the Data – Understanding distributions
+#4)	Create a histogram using GGPLOT for the population and a different histogram for the murder rate
+# Hint: Don’t forget to install and library the ggplot2 package.
+# Ensure each line of code is explained (comments) in terms of what it is doing. 
+# Then build similar code to create histograms of each of the other three variables in the merged data frame.
+# What parameter will you have to adjust to make the other histograms look right?
+library("ggplot2")
 
 
 
