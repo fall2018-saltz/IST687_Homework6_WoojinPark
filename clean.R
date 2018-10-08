@@ -47,6 +47,7 @@ MergedDf
 # Then build similar code to create histograms of each of the other three variables in the merged data frame.
 # What parameter will you have to adjust to make the other histograms look right?
 library("ggplot2")
+g <-ggplot(MergedDf, aes(x=population)) + geom_histogram(bins = 30, color="white", fill= "blue")
 
 
 
