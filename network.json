@@ -23,11 +23,6 @@
             ],
             "source": "clean.R",
             "target": "data.csv"
-        },
-        {
-            "ports": [],
-            "source": "clean.R",
-            "target": "population histogram.png"
         }
     ],
     "nodes": [
@@ -42,11 +37,8 @@
             "desc": "",
             "name": "clean.R",
             "task_status": "in progress"
-        },
-        {
-            "name": "population histogram.png"
         }
     ],
-    "updated_at": "2018-10-08 04:38:33",
+    "updated_at": "2018-10-08 04:39:22",
     "url": "https://github.com/fall2018-saltz/IST687_Homework6_WoojinPark"
 }
