@@ -33,16 +33,6 @@
             ],
             "source": "clean.R",
             "target": "gPopulation.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "gPopulation",
-                    "type": "png"
-                }
-            ],
-            "source": "clean.R",
-            "target": "dd.png"
         }
     ],
     "nodes": [
@@ -60,11 +50,8 @@
         },
         {
             "name": "gPopulation.png"
-        },
-        {
-            "name": "dd.png"
         }
     ],
-    "updated_at": "2018-10-11 02:35:59",
+    "updated_at": "2018-10-11 02:38:09",
     "url": "https://github.com/fall2018-saltz/IST687_Homework6_WoojinPark"
 }
