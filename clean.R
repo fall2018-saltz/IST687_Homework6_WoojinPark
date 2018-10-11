@@ -78,6 +78,7 @@ bMurderate
 # But boxplot also graphically represents the five most important descriptive values for a data set. 
 # The values include the minimum value,the first quartile, the median, the third quartile, and the maximum value
 
+
 # Step C: Which State had the Most Murders – bar charts
 # 7) Calculate the number of murders per state
 MergedDf$numMurSta <-round(MergedDf$population*MergedDf$Murder/100000)
