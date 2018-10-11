@@ -37,8 +37,11 @@
             "desc": "",
             "name": "clean.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "gPopulation.png"
         }
     ],
-    "updated_at": "2018-10-11 02:30:20",
+    "updated_at": "2018-10-11 02:30:42",
     "url": "https://github.com/fall2018-saltz/IST687_Homework6_WoojinPark"
 }
