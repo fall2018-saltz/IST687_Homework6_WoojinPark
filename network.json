@@ -63,6 +63,16 @@
             ],
             "source": "clean.R",
             "target": "gRape.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "gUrbanPop",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "gUrbanPop.png"
         }
     ],
     "nodes": [
@@ -94,6 +104,6 @@
             "name": "gUrbanPop.png"
         }
     ],
-    "updated_at": "2018-10-11 02:41:49",
+    "updated_at": "2018-10-11 02:41:58",
     "url": "https://github.com/fall2018-saltz/IST687_Homework6_WoojinPark"
 }
