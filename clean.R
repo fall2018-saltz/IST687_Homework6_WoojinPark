@@ -74,6 +74,7 @@ bMurderate
 
 # 6) Create a block comment explaining which visualization (boxplot or histogram) you thought was more helpful (explain why)
 # In my opinion, histogram is more helpful to understand the distribution of the data. 
+# It is way easier to identify general distribution trends compare to boxplot.
 
 # Step C: Which State had the Most Murders – bar charts
 # 7) Calculate the number of murders per state
