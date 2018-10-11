@@ -83,6 +83,16 @@
             ],
             "source": "clean.R",
             "target": "bPopulation.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "bMurderate",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "bMurderate.png"
         }
     ],
     "nodes": [
@@ -120,6 +130,6 @@
             "name": "bMurderate.png"
         }
     ],
-    "updated_at": "2018-10-11 02:42:55",
+    "updated_at": "2018-10-11 02:43:04",
     "url": "https://github.com/fall2018-saltz/IST687_Homework6_WoojinPark"
 }
