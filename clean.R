@@ -90,7 +90,7 @@ BarMurNum
 # 9) Generate a bar chart, with the number of murders per state. 
 # Rotate text (on the X axis), so we can see x labels, also add a title named “Total Murders”.
 BarMurNum1<-ggplot(MergedDf,aes(x=reorder(stateName, -numMurSta),y=numMurSta, fill=Murder))
-BarMurNum1<-BarMurNum1+geom_col()+ggtitle("State Murder Number Bar Chart")
+BarMurNum1<-BarMurNum1+geom_col()+ggtitle("Total Murders")
 BarMurNum1<-BarMurNum1+theme(axis.text.x = element_text(angle = 90,hjust = 1))+
   xlab("States")+ylab("Number of Murder")+
   theme(plot.title = element_text(hjust = 0.5,colour = "blue", size = 13))
