@@ -23,6 +23,126 @@
             ],
             "source": "clean.R",
             "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "output": "gPopulation",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "gPopulation.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "gMurderate",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "gMurderate.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "gAssualt",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "gAssualt.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "gRape",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "gRape.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "gUrbanPop",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "gUrbanPop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "bPopulation",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "bPopulation.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "bMurderate",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "bMurderate.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "BarMurNum",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "BarMurNum.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "BarMurNum1",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "BarMurNum1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "BarMurNum3",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "BarMurNum3.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "BarMurNum4",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "BarMurNum4.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "ScatPop",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "ScatPop.png"
         }
     ],
     "nodes": [
@@ -37,8 +157,44 @@
             "desc": "",
             "name": "clean.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "gPopulation.png"
+        },
+        {
+            "name": "gMurderate.png"
+        },
+        {
+            "name": "gAssualt.png"
+        },
+        {
+            "name": "gRape.png"
+        },
+        {
+            "name": "gUrbanPop.png"
+        },
+        {
+            "name": "bPopulation.png"
+        },
+        {
+            "name": "bMurderate.png"
+        },
+        {
+            "name": "BarMurNum.png"
+        },
+        {
+            "name": "BarMurNum1.png"
+        },
+        {
+            "name": "BarMurNum3.png"
+        },
+        {
+            "name": "BarMurNum4.png"
+        },
+        {
+            "name": "ScatPop.png"
         }
     ],
-    "updated_at": "2018-10-08 04:40:01",
+    "updated_at": "2018-10-11 02:45:37",
     "url": "https://github.com/fall2018-saltz/IST687_Homework6_WoojinPark"
 }
