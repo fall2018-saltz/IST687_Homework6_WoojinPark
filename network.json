@@ -73,6 +73,16 @@
             ],
             "source": "clean.R",
             "target": "gUrbanPop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "bPopulation",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "bPopulation.png"
         }
     ],
     "nodes": [
@@ -107,6 +117,6 @@
             "name": "bPopulation.png"
         }
     ],
-    "updated_at": "2018-10-11 02:42:13",
+    "updated_at": "2018-10-11 02:42:29",
     "url": "https://github.com/fall2018-saltz/IST687_Homework6_WoojinPark"
 }
