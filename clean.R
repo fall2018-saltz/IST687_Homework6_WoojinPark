@@ -1,7 +1,17 @@
 
+##################################################################
+# Course number : IST 687         
+# Name : Woojin Park
+# Homework 6
+# Assignment due : Thursday, October 11 , 2018
+# Submitted by Woojin Park on October 10 , 2018
+
+
+#Step A: Load and Merge datasets
+# 1) Read in the census dataset (using the function created in HW 3)
+
 clean_data <- raw_data
 
-# 1) Read in the census dataset (using the function created in HW 3)
 
 myfunction <-function(clean_data)
 {
