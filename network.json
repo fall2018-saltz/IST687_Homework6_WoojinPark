@@ -113,6 +113,16 @@
             ],
             "source": "clean.R",
             "target": "BarMurNum1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "BarMurNum3",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "BarMurNum3.png"
         }
     ],
     "nodes": [
@@ -159,6 +169,6 @@
             "name": "BarMurNum3.png"
         }
     ],
-    "updated_at": "2018-10-11 02:44:21",
+    "updated_at": "2018-10-11 02:44:27",
     "url": "https://github.com/fall2018-saltz/IST687_Homework6_WoojinPark"
 }
