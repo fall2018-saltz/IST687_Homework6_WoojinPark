@@ -53,6 +53,16 @@
             ],
             "source": "clean.R",
             "target": "gAssualt.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "gRape",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "gRape.png"
         }
     ],
     "nodes": [
@@ -81,6 +91,6 @@
             "name": "gRape.png"
         }
     ],
-    "updated_at": "2018-10-11 02:41:29",
+    "updated_at": "2018-10-11 02:41:40",
     "url": "https://github.com/fall2018-saltz/IST687_Homework6_WoojinPark"
 }
