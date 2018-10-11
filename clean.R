@@ -1,7 +1,17 @@
 
+##################################################################
+# Course number : IST 687         
+# Name : Woojin Park
+# Homework 6
+# Assignment due : Thursday, October 11 , 2018
+# Submitted by Woojin Park on October 10 , 2018
+
+
+#Step A: Load and Merge datasets
+# 1) Read in the census dataset (using the function created in HW 3)
+
 clean_data <- raw_data
 
-# 1) Read in the census dataset (using the function created in HW 3)
 
 myfunction <-function(clean_data)
 {
@@ -74,6 +84,10 @@ bMurderate
 
 # 6) Create a block comment explaining which visualization (boxplot or histogram) you thought was more helpful (explain why)
 # In my opinion, histogram is more helpful to understand the distribution of the data. 
+# It is way easier to identify general distribution trends compare to boxplot.
+# But boxplot also graphically represents the five most important descriptive values for a data set. 
+# The values include the minimum value,the first quartile, the median, the third quartile, and the maximum value
+
 
 # Step C: Which State had the Most Murders – bar charts
 # 7) Calculate the number of murders per state
