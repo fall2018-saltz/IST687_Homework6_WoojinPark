@@ -133,6 +133,16 @@
             ],
             "source": "clean.R",
             "target": "BarMurNum4.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "ScatPop",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "ScatPop.png"
         }
     ],
     "nodes": [
@@ -185,6 +195,6 @@
             "name": "ScatPop.png"
         }
     ],
-    "updated_at": "2018-10-11 02:45:28",
+    "updated_at": "2018-10-11 02:45:37",
     "url": "https://github.com/fall2018-saltz/IST687_Homework6_WoojinPark"
 }
