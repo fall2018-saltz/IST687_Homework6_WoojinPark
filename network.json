@@ -43,6 +43,16 @@
             ],
             "source": "clean.R",
             "target": "gMurderate.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "gAssualt",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "gAssualt.png"
         }
     ],
     "nodes": [
@@ -68,6 +78,6 @@
             "name": "gAssualt.png"
         }
     ],
-    "updated_at": "2018-10-11 02:39:02",
+    "updated_at": "2018-10-11 02:39:13",
     "url": "https://github.com/fall2018-saltz/IST687_Homework6_WoojinPark"
 }
